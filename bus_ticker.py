@@ -36,10 +36,10 @@ while True:
     one for the southbound buses and one for the northbound buses.
     """
     try:
-        southbound = next_bus('490008258S')
+        southbound = next_bus('490008258S') #populated with sample bus code
         southbound = str.join(', ', southbound)
         northbound = next_bus('490008258W')
-        northbound = str.join(', ', northbound)
+        northbound = str.join(', ', northbound) #populated with sample bus code
     except:
         southbound = 'TFail'
         northbound = 'TFail'
